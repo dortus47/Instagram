@@ -26,6 +26,7 @@ class NotificationsViewController: UIViewController, UITableViewDelegate, UITabl
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
         tableView.frame = view.bounds
     }
     
