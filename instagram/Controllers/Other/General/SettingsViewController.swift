@@ -106,7 +106,8 @@ final class SettingsViewController: UIViewController {
         let vc = EiditProfileViewController()
         vc.title = "Edit Profile"
         let navVC = UINavigationController(rootViewController: vc)
-        present(vc, animated: true)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
     }
     
     private func didTapLogOut() {

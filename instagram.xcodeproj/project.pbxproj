@@ -28,6 +28,10 @@
 		A111B6002728DFE000393708 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111B5FF2728DFE000393708 /* PostEditorViewController.swift */; };
 		A111B6022728DFFA00393708 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111B6012728DFFA00393708 /* PublishPostViewController.swift */; };
 		A1A2865D272A28C00003128E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2865C272A28C00003128E /* Extensions.swift */; };
+		A1CC112C2732C0190089B700 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC112B2732C0190089B700 /* FormTableViewCell.swift */; };
+		A1CC112F2732DA5C0089B700 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */; };
+		A1CC11312732DAC40089B700 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC11302732DAC40089B700 /* ProfileInfoHeaderCollectionReusableView.swift */; };
+		A1CC11332732DAE10089B700 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC11322732DAE10089B700 /* ProfileTabsCollectionReusableView.swift */; };
 		A1D87E212730D9A300BB16D5 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D87E202730D9A300BB16D5 /* IGFeedPostTableViewCell.swift */; };
 		A1D87E242730E06B00BB16D5 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D87E232730E06B00BB16D5 /* IGFeedPostHeaderTableViewCell.swift */; };
 		A1D87E262730E08500BB16D5 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D87E252730E08500BB16D5 /* IGFeedPostActionsTableViewCell.swift */; };
@@ -66,6 +70,10 @@
 		A111B5FF2728DFE000393708 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		A111B6012728DFFA00393708 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 		A1A2865C272A28C00003128E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1CC112B2732C0190089B700 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1CC11302732DAC40089B700 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		A1CC11322732DAE10089B700 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
 		A1D87E202730D9A300BB16D5 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
 		A1D87E232730E06B00BB16D5 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		A1D87E252730E08500BB16D5 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -130,6 +138,7 @@
 		A111B5E02728DD3D00393708 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A1CC112D2732D61D0089B700 /* CollectionView Headers */,
 				A1D87E1F2730D97D00BB16D5 /* Cells */,
 				A111B5D12728CD6D00393708 /* Main.storyboard */,
 				A111B5E32728DDAD00393708 /* Storyboards */,
@@ -197,10 +206,21 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		A1CC112D2732D61D0089B700 /* CollectionView Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC11302732DAC40089B700 /* ProfileInfoHeaderCollectionReusableView.swift */,
+				A1CC11322732DAE10089B700 /* ProfileTabsCollectionReusableView.swift */,
+			);
+			path = "CollectionView Headers";
+			sourceTree = "<group>";
+		};
 		A1D87E1F2730D97D00BB16D5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				A1D87E222730E04100BB16D5 /* Home Feed */,
+				A1CC112B2732C0190089B700 /* FormTableViewCell.swift */,
+				A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -373,15 +393,19 @@
 				A1D87E242730E06B00BB16D5 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				A111B5F42728DF5600393708 /* PostViewController.swift in Sources */,
 				A111B6002728DFE000393708 /* PostEditorViewController.swift in Sources */,
+				A1CC112C2732C0190089B700 /* FormTableViewCell.swift in Sources */,
 				A111B5E92728DE5F00393708 /* NotificationsViewController.swift in Sources */,
+				A1CC11332732DAE10089B700 /* ProfileTabsCollectionReusableView.swift in Sources */,
 				A111B5F02728DF1C00393708 /* LoginViewController.swift in Sources */,
 				A111B5FE2728DFBC00393708 /* SearchResultViewController.swift in Sources */,
 				A1D87E212730D9A300BB16D5 /* IGFeedPostTableViewCell.swift in Sources */,
+				A1CC112F2732DA5C0089B700 /* PhotoCollectionViewCell.swift in Sources */,
 				A111B5F62728DF7800393708 /* EiditProfileViewController.swift in Sources */,
 				A111B5FC2728DFAC00393708 /* SearchViewController.swift in Sources */,
 				A1A2865D272A28C00003128E /* Extensions.swift in Sources */,
 				A1D87E282730E0A200BB16D5 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				A111B5EB2728DE7700393708 /* ProfileViewController.swift in Sources */,
+				A1CC11312732DAC40089B700 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */,
 				A1DF4B0427290E3300ACFC1E /* AuthManager.swift in Sources */,
 				A111B5CC2728CD6D00393708 /* AppDelegate.swift in Sources */,
 				A111B5CE2728CD6D00393708 /* SceneDelegate.swift in Sources */,
