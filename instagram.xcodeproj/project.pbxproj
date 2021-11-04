@@ -40,6 +40,7 @@
 		A1DF4B0227290CA200ACFC1E /* DatabaseManager.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF4B0127290CA200ACFC1E /* DatabaseManager.swift.swift */; };
 		A1DF4B0427290E3300ACFC1E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF4B0327290E3300ACFC1E /* AuthManager.swift */; };
 		A1DF4B06272910CC00ACFC1E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF4B05272910CC00ACFC1E /* StorageManager.swift */; };
+		A1F109CC273406C00097B821 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F109CB273406C00097B821 /* Models.swift */; };
 		CECBF53D3F9EC4BA29B39524 /* Pods_instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385ED83F9CBAB9E71CE56B79 /* Pods_instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		A1DF4B0127290CA200ACFC1E /* DatabaseManager.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift.swift; sourceTree = "<group>"; };
 		A1DF4B0327290E3300ACFC1E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		A1DF4B05272910CC00ACFC1E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A1F109CB273406C00097B821 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		A111B5E12728DD4400393708 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A1F109CB273406C00097B821 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				A1D87E242730E06B00BB16D5 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				A111B5F42728DF5600393708 /* PostViewController.swift in Sources */,
 				A111B6002728DFE000393708 /* PostEditorViewController.swift in Sources */,
+				A1F109CC273406C00097B821 /* Models.swift in Sources */,
 				A1CC112C2732C0190089B700 /* FormTableViewCell.swift in Sources */,
 				A111B5E92728DE5F00393708 /* NotificationsViewController.swift in Sources */,
 				A1CC11332732DAE10089B700 /* ProfileTabsCollectionReusableView.swift in Sources */,
@@ -572,7 +576,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,7 +608,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
