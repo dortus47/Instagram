@@ -27,6 +27,7 @@
 		A111B5FE2728DFBC00393708 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111B5FD2728DFBC00393708 /* SearchResultViewController.swift */; };
 		A111B6002728DFE000393708 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111B5FF2728DFE000393708 /* PostEditorViewController.swift */; };
 		A111B6022728DFFA00393708 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111B6012728DFFA00393708 /* PublishPostViewController.swift */; };
+		A1300449273517A20054E1CB /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1300448273517A20054E1CB /* UserFollowTableViewCell.swift */; };
 		A1A2865D272A28C00003128E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2865C272A28C00003128E /* Extensions.swift */; };
 		A1CC112C2732C0190089B700 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC112B2732C0190089B700 /* FormTableViewCell.swift */; };
 		A1CC112F2732DA5C0089B700 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */; };
@@ -70,6 +71,7 @@
 		A111B5FD2728DFBC00393708 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		A111B5FF2728DFE000393708 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		A111B6012728DFFA00393708 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		A1300448273517A20054E1CB /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 		A1A2865C272A28C00003128E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A1CC112B2732C0190089B700 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				A1D87E222730E04100BB16D5 /* Home Feed */,
 				A1CC112B2732C0190089B700 /* FormTableViewCell.swift */,
 				A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */,
+				A1300448273517A20054E1CB /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				A1D87E242730E06B00BB16D5 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				A111B5F42728DF5600393708 /* PostViewController.swift in Sources */,
 				A111B6002728DFE000393708 /* PostEditorViewController.swift in Sources */,
+				A1300449273517A20054E1CB /* UserFollowTableViewCell.swift in Sources */,
 				A1F109CC273406C00097B821 /* Models.swift in Sources */,
 				A1CC112C2732C0190089B700 /* FormTableViewCell.swift in Sources */,
 				A111B5E92728DE5F00393708 /* NotificationsViewController.swift in Sources */,
