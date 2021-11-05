@@ -138,14 +138,26 @@ extension ProfileViewController: ProfileInfoHeaderCollectionReusableViewDelegate
     }
     
     func profileHeaderDidTapFollowersButton(_ header: ProfileInfoHeaderCollectionReusableView) {
-        let vc = ListViewController(data: ["Joe", "Joe", "Joe", "Joe"])
+        var mockData = [UserRelationShip]()
+        for x in 0 ..< 10 {
+            mockData.append(UserRelationShip(username: "@joe",
+                                             name: "joe Smith",
+                                             type: x % 2 == 0 ? .following : .not_following))
+        }
+        let vc = ListViewController(data: mockData)
         vc.title = "Followers"
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
     
     func profileHeaderDidTapFollowingButton(_ header: ProfileInfoHeaderCollectionReusableView) {
-        let vc = ListViewController(data: ["Joe", "Joe", "Joe", "Joe"])
+        var mockData = [UserRelationShip]()
+        for x in 0 ..< 10 {
+            mockData.append(UserRelationShip(username: "@joe",
+                                             name: "joe Smith",
+                                             type: x % 2 == 0 ? .following : .not_following))
+        }
+        let vc = ListViewController(data: mockData)
         vc.title = "Following"
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
