@@ -240,7 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				A10B96692735989E00A781DE /* Notifications */,
-				A1D87E222730E04100BB16D5 /* Home Feed */,
+				A1D87E222730E04100BB16D5 /* Home Feed & Post */,
 				A1CC112B2732C0190089B700 /* FormTableViewCell.swift */,
 				A1CC112E2732DA5C0089B700 /* PhotoCollectionViewCell.swift */,
 				A1300448273517A20054E1CB /* UserFollowTableViewCell.swift */,
@@ -248,7 +248,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		A1D87E222730E04100BB16D5 /* Home Feed */ = {
+		A1D87E222730E04100BB16D5 /* Home Feed & Post */ = {
 			isa = PBXGroup;
 			children = (
 				A1D87E202730D9A300BB16D5 /* IGFeedPostTableViewCell.swift */,
@@ -256,7 +256,7 @@
 				A1D87E252730E08500BB16D5 /* IGFeedPostActionsTableViewCell.swift */,
 				A1D87E272730E0A200BB16D5 /* IGFeedPostGeneralTableViewCell.swift */,
 			);
-			path = "Home Feed";
+			path = "Home Feed & Post";
 			sourceTree = "<group>";
 		};
 		A1DF4B002728FE1D00ACFC1E /* General */ = {
